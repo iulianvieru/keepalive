@@ -3,6 +3,15 @@
 Aplicație mică de Windows care stă în tray și ține statusul „Online" în Teams,
 Slack și altele asemenea, atunci când ești departe de calculator.
 
+## Descărcare
+
+Din [Releases](https://github.com/iulianvieru/keepalive/releases/latest):
+
+- `KeepAlive.exe` (~0,5 MB) – are nevoie de
+  [.NET 8 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/8.0)
+  instalat; Windows îți oferă link-ul la prima pornire dacă lipsește.
+- `KeepAlive-standalone.exe` (~66 MB) – merge fără nimic instalat.
+
 ## Cum funcționează
 
 - La fiecare **3 minute** verifică de cât timp nu ai atins tastatura sau mouse-ul
